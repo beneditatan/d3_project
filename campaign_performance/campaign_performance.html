@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<h1>Performance Dashboards</h1>
+
+<div id="filter">
+<h2>What are my top 10 campaigns?</h2>
+<p>Choose metrics:
+<select name="metrics-list" id ="metrics-list">
+	<option value="cost">Cost</option>
+	<option value="impressions">Impressions</option>
+	<option value="clicks">Clicks</option>
+	<option value="cpm">CPM</option>
+	<option value="cpc">CPC</option>
+</select>
+</p>
+</div>
+<div id="banner">
+	<div id="total_spend">Total Spend<br></div>
+	<div id="impressions">Total Impressions<br></div>
+	<div id="clicks">Total Clicks<br></div>
+	<div id="cpc">Average CPC<br></div>
+	<div id="cpm">Average CPM<br></div>
+</div>
+<div id="wrapper">
+</div>
+<div id="bubble">
+</div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="bubble_chart.js"></script>
+<script src="dashboard.js"></script>
+</body>

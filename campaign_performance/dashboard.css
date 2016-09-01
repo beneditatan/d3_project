@@ -1,0 +1,97 @@
+#xaxis .domain {
+	fill:none;
+	stroke:#000;
+}
+#xaxis text, #yaxis text {
+	font-size: 12px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+}
+#wrapper {
+	background-color: #f2f2f2;
+	width: 1300px;
+	margin: 0 auto;
+	text-align: left;
+	
+}
+
+#bubble{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#filter{
+	height: 100px;
+	width: 1300px;
+	margin: 0 auto;
+}
+
+#banner{
+	height: 150px;
+	width: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#total_spend{
+	height: 120px;
+	width: 260px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #000066;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+}
+
+#impressions{
+	height: 120px;
+	width: 260px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #000066;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+}
+
+#clicks{
+	height: 120px;
+	width: 260px;
+	margin-left:0px;
+	margin-top: 0px;
+	background-color: #000066;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+}
+
+#cpc{
+	height: 120px;
+	width: 260px;
+	margin-left:0px;
+	margin-top: 0px;
+	background-color: #000066;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+}
+
+#cpm{
+	height: 120px;
+	width: 260px;
+	margin-left:0px;
+	margin-top: 0px;
+	background-color: #000066;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+}
